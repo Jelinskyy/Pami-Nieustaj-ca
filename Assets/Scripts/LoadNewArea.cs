@@ -8,7 +8,7 @@ public class LoadNewArea : Interactable
     public Vector3 StartPoint;
     private CameraController Camera;
     private PlayerConroler Player;
-    
+
     public void DoInteraction()
     {
         Camera = FindObjectOfType<CameraController>();
@@ -17,5 +17,13 @@ public class LoadNewArea : Interactable
         Player.transform.position = StartPoint;
         Application.LoadLevel(levelToLoad);
         GameObject.Find("/CanvasBox/Canvas/InteractionText").SetActive(false);
+        restartState();
+    }
+
+    public virtual void restartState()
+    {
+
     }
 }
+
+

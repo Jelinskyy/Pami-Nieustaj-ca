@@ -12,6 +12,11 @@ public class Jonatan : Talk
     public GameObject Currentitem;
     public GameObject Bottle;
 
+    void Start()
+    {
+        Currentitem = GameObject.Find("/CanvasBox/Canvas/ItemFrame/CurrentItem");
+    }
+
     public override void DoInteraction()
     {
         switch(state)

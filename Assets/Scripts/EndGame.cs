@@ -5,6 +5,7 @@ using UnityEngine;
 public class EndGame : Interactable
 {
     private Plug plug;
+    public BackMainMenu backMain;
 
     void Start()
     {
@@ -14,9 +15,9 @@ public class EndGame : Interactable
 
     public void DoInteraction()
     {
-        plug.turn();
-        Application.Quit();
         gameObject.SetActive(false);
-        GameObject.Find("/CanvasBox/Canvas/InteractionText").SetActive(false);
+        GameObject.FindObjectOfType<GameMenager>().turnOff();
+        GameObject.FindObjectOfType<JonatanNight>().state = 0;
+        Application.LoadLevel("mainMenu");
     }
 }

@@ -54,24 +54,33 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\AfterWork.cs" />
+     <Compile Include="Assets\Scripts\BackMainMenu.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\Canva.cs" />
      <Compile Include="Assets\Scripts\Dawid.cs" />
      <Compile Include="Assets\Scripts\Dialogue.cs" />
      <Compile Include="Assets\Scripts\DialogueMenager.cs" />
      <Compile Include="Assets\Scripts\EndGame.cs" />
+     <Compile Include="Assets\Scripts\GameMenager.cs" />
      <Compile Include="Assets\Scripts\Interactable.cs" />
      <Compile Include="Assets\Scripts\Item.cs" />
      <Compile Include="Assets\Scripts\ItemFrame.cs" />
      <Compile Include="Assets\Scripts\Jonatan.cs" />
      <Compile Include="Assets\Scripts\JonatanNight.cs" />
+     <Compile Include="Assets\Scripts\LoadHome.cs" />
      <Compile Include="Assets\Scripts\LoadNewArea.cs" />
+     <Compile Include="Assets\Scripts\LoadStreet.cs" />
      <Compile Include="Assets\Scripts\LoadWorkArea.cs" />
+     <Compile Include="Assets\Scripts\MenuMenager.cs" />
+     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
      <Compile Include="Assets\Scripts\NextScript.cs" />
+     <Compile Include="Assets\Scripts\pauseMenu.cs" />
      <Compile Include="Assets\Scripts\PlayerConroler.cs" />
      <Compile Include="Assets\Scripts\PlayerInteraction.cs" />
      <Compile Include="Assets\Scripts\Plug.cs" />
      <Compile Include="Assets\Scripts\ShadowRender.cs" />
+     <Compile Include="Assets\Scripts\soundChanger.cs" />
+     <Compile Include="Assets\Scripts\SoundTrack.cs" />
      <Compile Include="Assets\Scripts\Talk.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\CircleObject.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GameObjectExtensions.cs" />

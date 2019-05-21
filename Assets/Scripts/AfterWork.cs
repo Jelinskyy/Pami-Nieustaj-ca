@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class AfterWork : MonoBehaviour
 {
+    public GameObject Maciej;
+    public GameObject Eliza;
     private Plug plug;
     private GameObject Camera;
     private Dawid dawid;
@@ -25,6 +27,8 @@ public class AfterWork : MonoBehaviour
         {
             gameObject.SetActive(false);
             GameObject.FindObjectOfType<Canva>().OnCanva();
+            Eliza.SetActive(false);
+            Maciej.SetActive(false);
             plug = FindObjectOfType<Plug>();
             dir.SetActive(true);
             Gen.gameObject.SetActive(true);
